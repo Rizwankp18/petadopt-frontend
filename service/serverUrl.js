@@ -1,0 +1,1 @@
+export const serverUrl = "https://adoptpet-backend.onrender.com"
