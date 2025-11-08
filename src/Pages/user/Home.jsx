@@ -44,9 +44,11 @@ useEffect(()=>{
                 Adopt a loving pet and give them a forever home. Browse our pets and
                 start your adoption journey today!
               </p>
-              <button className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-500 transition">
-                Browse Pets
-              </button>
+              <Link to={"/browser"}>
+                <button className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-500 transition">
+                  Browse Pets
+                </button>
+              </Link>
             </div>
           </section>
     
